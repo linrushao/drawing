@@ -1,9 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2023-10-08T02:35:46.668Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" version="21.8.2" etag="ojs0NpjRzMzoKtQV9Ry5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-08T03:37:08.416Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="RBIDwjuOcy_3mPfCAEaL" version="22.0.4" type="github">
   <diagram name="第 1 页" id="Mj5Ews41ki1znMXVR-Vp">
-    <mxGraphModel>
+    <mxGraphModel dx="2137" dy="855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2igFnFL0GFjL6AdHKT34-1" value="基于Spark的美食推荐系统" style="rounded=1;whiteSpace=wrap;html=1;flipV=1;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="293" y="40" width="320" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-3" value="首页" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="158" y="160" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-4" value="离线推荐" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="359" y="160" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-5" value="菜品类别" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-6" value="实时推荐" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="760" y="160" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-7" value="数据可视化" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="160" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-8" value="用户" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="960" y="160" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-14" value="用户动态" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="240" width="40" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-16" value="家常菜" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="680" y="240" width="40" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-17" value="热门菜品排行" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="40" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-18" value="精选美食" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="441" y="240" width="40" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-19" value="优质菜品" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="40" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-33" value="我的评分菜品" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="240" width="40" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-34" value="菜品分类" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="240" width="40" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-35" value="当前用户平均评分" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="240" width="40" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-36" value="当前用户评分趋势" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="40" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-37" value="用户评分分布" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="359" y="240" width="40" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-38" value="菜品推荐排行榜" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="40" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-39" value="小吃" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="840" y="240" width="40" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-40" value="甜品" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="240" width="40" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-41" value="海鲜" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="602" y="240" width="40" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-42" value="数量展示" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="40" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-44" value="登录" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="240" width="40" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="2igFnFL0GFjL6AdHKT34-45" value="注册" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="920" y="240" width="40" height="285" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
