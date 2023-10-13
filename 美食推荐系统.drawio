@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T03:17:19.165Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="0fNU1fTma-YV3_4PQgKh" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T03:56:19.315Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="1qAbPpU3XOMSmvRobVYN" version="22.0.4" type="github">
   <diagram name="第 1 页" id="Mj5Ews41ki1znMXVR-Vp">
     <mxGraphModel dx="9689" dy="3804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -653,7 +653,7 @@
           <mxGeometry x="-6000" y="1670" width="330" height="191" as="geometry" />
         </mxCell>
         <mxCell id="jOmOR42FHlh-izVVMqKT-18" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=28;" vertex="1" parent="1">
-          <mxGeometry x="-5629.7" y="1658" width="342.7" height="191" as="geometry" />
+          <mxGeometry x="-5635.7" y="1704" width="649.7" height="191" as="geometry" />
         </mxCell>
         <mxCell id="jOmOR42FHlh-izVVMqKT-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-6017.5" y="1950" width="791" height="269" as="geometry" />
@@ -692,7 +692,7 @@
           <mxGeometry x="-5992" y="1760" width="371" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jOmOR42FHlh-izVVMqKT-34" value="菜品推荐服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
-          <mxGeometry x="-5609" y="1690.5" width="286" height="30" as="geometry" />
+          <mxGeometry x="-5615" y="1736.5" width="286" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jOmOR42FHlh-izVVMqKT-35" value="信息采集服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
           <mxGeometry x="-5680.5" y="1530" width="371" height="30" as="geometry" />
@@ -706,20 +706,26 @@
         <mxCell id="jOmOR42FHlh-izVVMqKT-39" value="Flume" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=28;" vertex="1" parent="1">
           <mxGeometry x="-5570.5" y="1569.5" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jOmOR42FHlh-izVVMqKT-40" value="SparkSQL" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=28;" vertex="1" parent="1">
-          <mxGeometry x="-5597.08" y="1780.5" width="229.08" height="60" as="geometry" />
+        <mxCell id="jOmOR42FHlh-izVVMqKT-40" value="Spark SQL" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="-5318.58" y="1724" width="229.08" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jOmOR42FHlh-izVVMqKT-41" value="Kafka" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=28;" vertex="1" parent="1">
           <mxGeometry x="-5880" y="1800" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jOmOR42FHlh-izVVMqKT-47" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=28;" vertex="1" parent="1">
-          <mxGeometry x="-5238" y="1540" width="342.7" height="191" as="geometry" />
+          <mxGeometry x="-5260.2" y="1467" width="342.7" height="191" as="geometry" />
         </mxCell>
         <mxCell id="jOmOR42FHlh-izVVMqKT-49" value="分布式应用程序协调服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
-          <mxGeometry x="-5181.5" y="1584.5" width="241.5" height="30" as="geometry" />
+          <mxGeometry x="-5203.7" y="1511.5" width="241.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jOmOR42FHlh-izVVMqKT-50" value="Zookeeper" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=28;" vertex="1" parent="1">
-          <mxGeometry x="-5210" y="1651" width="229.08" height="60" as="geometry" />
+          <mxGeometry x="-5213.28" y="1585" width="229.08" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jOmOR42FHlh-izVVMqKT-51" value="Spark Streaming" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="-5611" y="1766.5" width="229.08" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jOmOR42FHlh-izVVMqKT-52" value="Spark Millib" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="-5393.58" y="1806" width="229.08" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
