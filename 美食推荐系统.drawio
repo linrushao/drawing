@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T12:49:40.116Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="64WBTAnSqkQFMXKkYGff" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T12:59:44.174Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="R0J9nU-3pZbQdMLYUXSy" version="22.1.0" type="github">
   <diagram name="第 1 页" id="Mj5Ews41ki1znMXVR-Vp">
     <mxGraphModel dx="11062" dy="4790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -604,7 +604,7 @@
         <mxCell id="CFJvxueQjSxWETAtllnZ-38" value="运行环境" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;dashed=0;fontSize=28;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="-5275.25" y="2175" width="236" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="CFJvxueQjSxWETAtllnZ-39" value="数据库" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;dashed=0;fontSize=28;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
+        <mxCell id="CFJvxueQjSxWETAtllnZ-39" value="持久层" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;dashed=0;fontSize=28;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="-5269.25" y="1903" width="236" height="180" as="geometry" />
         </mxCell>
         <mxCell id="CFJvxueQjSxWETAtllnZ-40" value="统一操作日志记录" style="html=1;dashed=0;whiteSpace=wrap;fontSize=28;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
@@ -817,7 +817,7 @@
         <mxCell id="CFJvxueQjSxWETAtllnZ-200" value="运行环境" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;dashed=0;fontSize=28;" parent="1" vertex="1">
           <mxGeometry x="-7223.25" y="2142.5" width="236" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="CFJvxueQjSxWETAtllnZ-201" value="数据库" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;dashed=0;fontSize=28;" parent="1" vertex="1">
+        <mxCell id="CFJvxueQjSxWETAtllnZ-201" value="持久层" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;dashed=0;fontSize=28;" parent="1" vertex="1">
           <mxGeometry x="-7217.25" y="1870.5" width="236" height="180" as="geometry" />
         </mxCell>
         <mxCell id="CFJvxueQjSxWETAtllnZ-202" value="统一操作日志记录" style="html=1;dashed=0;whiteSpace=wrap;fontSize=28;" parent="1" vertex="1">
