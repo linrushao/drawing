@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T06:39:27.421Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="SiaqdszWmhkiLSxoOsUz" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T06:44:45.856Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="ss-LaMss0qr7ibDPAMVv" version="24.2.0" type="github">
   <diagram name="第 1 页" id="Mj5Ews41ki1znMXVR-Vp">
     <mxGraphModel dx="14065" dy="4048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -2064,14 +2064,38 @@
         <mxCell id="ukj4ncrsU3qBu_M9D88S-51" value="用户" style="swimlane;whiteSpace=wrap;html=1;fontSize=35;startSize=68;" vertex="1" parent="1">
           <mxGeometry x="-7700" y="3240" width="580" height="1340" as="geometry" />
         </mxCell>
+        <mxCell id="ukj4ncrsU3qBu_M9D88S-55" value="浏览器访问" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="ukj4ncrsU3qBu_M9D88S-51">
+          <mxGeometry x="30" y="101" width="250" height="109" as="geometry" />
+        </mxCell>
         <mxCell id="ukj4ncrsU3qBu_M9D88S-52" value="系统界面" style="swimlane;whiteSpace=wrap;html=1;fontSize=35;startSize=68;" vertex="1" parent="1">
           <mxGeometry x="-7120" y="3240" width="580" height="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="ukj4ncrsU3qBu_M9D88S-57" value="登录页面" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="ukj4ncrsU3qBu_M9D88S-52">
+          <mxGeometry x="91" y="150" width="250" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="ukj4ncrsU3qBu_M9D88S-61" value="注册页面" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="ukj4ncrsU3qBu_M9D88S-52">
+          <mxGeometry x="91" y="396" width="250" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="ukj4ncrsU3qBu_M9D88S-62" value="忘记密码" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="ukj4ncrsU3qBu_M9D88S-52">
+          <mxGeometry x="91" y="690" width="250" height="109" as="geometry" />
         </mxCell>
         <mxCell id="ukj4ncrsU3qBu_M9D88S-53" value="后台业务系统" style="swimlane;whiteSpace=wrap;html=1;fontSize=35;startSize=68;" vertex="1" parent="1">
           <mxGeometry x="-6540" y="3240" width="580" height="1339.5" as="geometry" />
         </mxCell>
+        <mxCell id="ukj4ncrsU3qBu_M9D88S-59" value="验证身份信息" style="rhombus;whiteSpace=wrap;html=1;fontSize=35;" vertex="1" parent="ukj4ncrsU3qBu_M9D88S-53">
+          <mxGeometry x="153.17000000000002" y="328" width="262" height="270" as="geometry" />
+        </mxCell>
         <mxCell id="ukj4ncrsU3qBu_M9D88S-54" value="推荐系统" style="swimlane;whiteSpace=wrap;html=1;fontSize=35;startSize=68;" vertex="1" parent="1">
           <mxGeometry x="-5960" y="3240" width="580" height="1339.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ukj4ncrsU3qBu_M9D88S-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ukj4ncrsU3qBu_M9D88S-55" target="ukj4ncrsU3qBu_M9D88S-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukj4ncrsU3qBu_M9D88S-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ukj4ncrsU3qBu_M9D88S-57" target="ukj4ncrsU3qBu_M9D88S-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukj4ncrsU3qBu_M9D88S-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ukj4ncrsU3qBu_M9D88S-61" target="ukj4ncrsU3qBu_M9D88S-59">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
