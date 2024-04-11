@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T02:21:03.158Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="dw352F3V0PSbVQpUVBO0" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-11T02:31:09.704Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="qSpiJ_ziKlqCrNyzLUaz" version="24.2.2" type="github">
   <diagram name="第 1 页" id="Mj5Ews41ki1znMXVR-Vp">
     <mxGraphModel dx="13731" dy="3963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -2398,38 +2398,80 @@
         <mxCell id="96-QBhrhXj8qaCH8r7D5-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="96-QBhrhXj8qaCH8r7D5-48" target="96-QBhrhXj8qaCH8r7D5-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bq3LUMZx7AvOdvvVBnC2-1" target="bq3LUMZx7AvOdvvVBnC2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bq3LUMZx7AvOdvvVBnC2-1" target="bq3LUMZx7AvOdvvVBnC2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bq3LUMZx7AvOdvvVBnC2-1" target="bq3LUMZx7AvOdvvVBnC2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bq3LUMZx7AvOdvvVBnC2-1" target="bq3LUMZx7AvOdvvVBnC2-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bq3LUMZx7AvOdvvVBnC2-1" value="&lt;font style=&quot;font-size: 38px;&quot;&gt;基于Spark的美食推荐系统设计与实现的研究内容&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
-          <mxGeometry x="-5926.35" y="1832.5" width="116.35" height="747.5" as="geometry" />
+          <mxGeometry x="-5946.35" y="1930" width="116.35" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bq3LUMZx7AvOdvvVBnC2-3" target="bq3LUMZx7AvOdvvVBnC2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bq3LUMZx7AvOdvvVBnC2-3" target="bq3LUMZx7AvOdvvVBnC2-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bq3LUMZx7AvOdvvVBnC2-3" value="技术上的研究" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
-          <mxGeometry x="-5680" y="1842" width="310" height="78" as="geometry" />
+          <mxGeometry x="-5680" y="1867.5" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bq3LUMZx7AvOdvvVBnC2-5" target="bq3LUMZx7AvOdvvVBnC2-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bq3LUMZx7AvOdvvVBnC2-5" target="bq3LUMZx7AvOdvvVBnC2-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bq3LUMZx7AvOdvvVBnC2-5" value="算法上的研究" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
-          <mxGeometry x="-5680" y="2003" width="310" height="78" as="geometry" />
+          <mxGeometry x="-5680" y="2182" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bq3LUMZx7AvOdvvVBnC2-6" target="bq3LUMZx7AvOdvvVBnC2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bq3LUMZx7AvOdvvVBnC2-6" target="bq3LUMZx7AvOdvvVBnC2-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bq3LUMZx7AvOdvvVBnC2-6" value="问题解决" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
-          <mxGeometry x="-5680" y="2157.5" width="310" height="78" as="geometry" />
+          <mxGeometry x="-5680" y="2496" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bq3LUMZx7AvOdvvVBnC2-7" target="bq3LUMZx7AvOdvvVBnC2-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bq3LUMZx7AvOdvvVBnC2-7" target="bq3LUMZx7AvOdvvVBnC2-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bq3LUMZx7AvOdvvVBnC2-7" value="推荐引擎研究" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
-          <mxGeometry x="-5680" y="2324" width="310" height="78" as="geometry" />
+          <mxGeometry x="-5680" y="2810" width="350" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="bq3LUMZx7AvOdvvVBnC2-10" value="Spark、Flume、Kafka、Redis、ElasticSearch、Zookeeper" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
-          <mxGeometry x="-5090.92" y="1765.5" width="590" height="148" as="geometry" />
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-10" value="Spark、Flume、Kafka、Zookeeper" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="-5120" y="1796" width="350" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="bq3LUMZx7AvOdvvVBnC2-11" value="协同过滤推荐算法" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
-          <mxGeometry x="-5170" y="2017.5" width="590" height="148" as="geometry" />
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-11" value="协同过滤推荐算法" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="-5120" y="2106" width="350" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="bq3LUMZx7AvOdvvVBnC2-12" value="数据稀疏性问题、冷启动问题" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
-          <mxGeometry x="-5087.92" y="2251" width="590" height="148" as="geometry" />
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-12" value="冷启动问题" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="-5120" y="2570" width="350" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="bq3LUMZx7AvOdvvVBnC2-13" value="离线推荐引擎、实时推荐引擎" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
-          <mxGeometry x="-5104.92" y="2430" width="590" height="148" as="geometry" />
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-13" value="离线推荐引擎" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="-5120" y="2725" width="350" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="bq3LUMZx7AvOdvvVBnC2-14" value="混合推荐算法" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
-          <mxGeometry x="-4526.92" y="2026" width="590" height="148" as="geometry" />
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-14" value="混合推荐算法" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="-5120" y="2261" width="350" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="bq3LUMZx7AvOdvvVBnC2-15" value="数据稀疏性问题" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
-          <mxGeometry x="-4514.92" y="2289" width="590" height="148" as="geometry" />
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-15" value="数据稀疏性问题" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="-5120" y="2415" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-16" value="实时推荐引擎" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="-5120" y="2880" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-17" value="Redis、ElasticSearch" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="-5120" y="1951" width="350" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
