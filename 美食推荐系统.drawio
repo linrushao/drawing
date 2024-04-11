@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-07T13:39:08.949Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="Hf51tVria5Unz4YvOfDm" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-11T02:21:03.158Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="dw352F3V0PSbVQpUVBO0" version="24.2.2" type="github">
   <diagram name="第 1 页" id="Mj5Ews41ki1znMXVR-Vp">
-    <mxGraphModel dx="15023" dy="3963" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="13731" dy="3963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1977,7 +1977,7 @@
         <mxCell id="96-QBhrhXj8qaCH8r7D5-54" value="实时推荐列表" style="rounded=0;whiteSpace=wrap;html=1;fontSize=35;" parent="ukj4ncrsU3qBu_M9D88S-53" vertex="1">
           <mxGeometry x="135" y="1209.5" width="290" height="109" as="geometry" />
         </mxCell>
-        <mxCell id="5JaCDtESOw8cCV1Wj-Y2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ukj4ncrsU3qBu_M9D88S-53" source="96-QBhrhXj8qaCH8r7D5-53" target="96-QBhrhXj8qaCH8r7D5-53">
+        <mxCell id="5JaCDtESOw8cCV1Wj-Y2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="ukj4ncrsU3qBu_M9D88S-53" source="96-QBhrhXj8qaCH8r7D5-53" target="96-QBhrhXj8qaCH8r7D5-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="96-QBhrhXj8qaCH8r7D5-67" value="是否有行为" style="rhombus;whiteSpace=wrap;html=1;fontSize=35;" parent="ukj4ncrsU3qBu_M9D88S-53" vertex="1">
@@ -2397,6 +2397,39 @@
         </mxCell>
         <mxCell id="96-QBhrhXj8qaCH8r7D5-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="96-QBhrhXj8qaCH8r7D5-48" target="96-QBhrhXj8qaCH8r7D5-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-1" value="&lt;font style=&quot;font-size: 38px;&quot;&gt;基于Spark的美食推荐系统设计与实现的研究内容&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
+          <mxGeometry x="-5926.35" y="1832.5" width="116.35" height="747.5" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-3" value="技术上的研究" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
+          <mxGeometry x="-5680" y="1842" width="310" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-5" value="算法上的研究" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
+          <mxGeometry x="-5680" y="2003" width="310" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-6" value="问题解决" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
+          <mxGeometry x="-5680" y="2157.5" width="310" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-7" value="推荐引擎研究" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
+          <mxGeometry x="-5680" y="2324" width="310" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-10" value="Spark、Flume、Kafka、Redis、ElasticSearch、Zookeeper" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
+          <mxGeometry x="-5090.92" y="1765.5" width="590" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-11" value="协同过滤推荐算法" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
+          <mxGeometry x="-5170" y="2017.5" width="590" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-12" value="数据稀疏性问题、冷启动问题" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
+          <mxGeometry x="-5087.92" y="2251" width="590" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-13" value="离线推荐引擎、实时推荐引擎" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
+          <mxGeometry x="-5104.92" y="2430" width="590" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-14" value="混合推荐算法" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
+          <mxGeometry x="-4526.92" y="2026" width="590" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="bq3LUMZx7AvOdvvVBnC2-15" value="数据稀疏性问题" style="rounded=0;whiteSpace=wrap;html=1;fontSize=38;" vertex="1" parent="1">
+          <mxGeometry x="-4514.92" y="2289" width="590" height="148" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
