@@ -28,6 +28,9 @@
         <mxCell id="W-skbeQEMJc8F4TyrRdm-6" value="后端服务&lt;br&gt;（server）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="300" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="W-skbeQEMJc8F4TyrRdm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W-skbeQEMJc8F4TyrRdm-8" target="W-skbeQEMJc8F4TyrRdm-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="W-skbeQEMJc8F4TyrRdm-8" value="添加方法&lt;div&gt;（自定义前端方法名称）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="300" width="120" height="60" as="geometry" />
         </mxCell>
@@ -36,6 +39,27 @@
         </mxCell>
         <mxCell id="W-skbeQEMJc8F4TyrRdm-10" value="添加客开或标准的BO依赖&lt;br&gt;（BOImpl）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W-skbeQEMJc8F4TyrRdm-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W-skbeQEMJc8F4TyrRdm-13" target="W-skbeQEMJc8F4TyrRdm-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W-skbeQEMJc8F4TyrRdm-13" value="BO&lt;div&gt;(Interface)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W-skbeQEMJc8F4TyrRdm-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W-skbeQEMJc8F4TyrRdm-14" target="W-skbeQEMJc8F4TyrRdm-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W-skbeQEMJc8F4TyrRdm-14" value="BOImpl" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W-skbeQEMJc8F4TyrRdm-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W-skbeQEMJc8F4TyrRdm-15" target="W-skbeQEMJc8F4TyrRdm-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W-skbeQEMJc8F4TyrRdm-15" value="DAO&lt;br&gt;&lt;div&gt;(Interface)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W-skbeQEMJc8F4TyrRdm-16" value="DAOImpl&lt;div&gt;(具体的实现方法)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="585" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
