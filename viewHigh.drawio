@@ -59,7 +59,7 @@
           <mxGeometry x="520" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W-skbeQEMJc8F4TyrRdm-16" value="DAOImpl&lt;div&gt;(具体的实现方法)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="585" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="555" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
