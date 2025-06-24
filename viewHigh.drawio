@@ -196,8 +196,11 @@
         <mxCell id="bUvj8TGviZVEhVeKmZVO-21" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="1690" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-22" target="bUvj8TGviZVEhVeKmZVO-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bUvj8TGviZVEhVeKmZVO-22" value="校验付款结算单明细信息&lt;div&gt;List&amp;lt;AcctCashDetail&amp;gt; cashDetailList = this.acctTellDAO.getAcctCashDetailByCashId(Integer.parseInt(cashId));&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="2000" width="301" height="87.5" as="geometry" />
+          <mxGeometry x="1130" y="2050" width="301" height="87.5" as="geometry" />
         </mxCell>
         <mxCell id="bUvj8TGviZVEhVeKmZVO-25" value="&lt;div&gt;获取账户信息&lt;/div&gt;Map acctInfo = acctTellDAO.getAcctInfoByAcctId(acctId.toString());" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="1937.5" width="120" height="80" as="geometry" />
@@ -210,6 +213,21 @@
         </mxCell>
         <mxCell id="bUvj8TGviZVEhVeKmZVO-29" value="获取结算单明细&lt;div&gt;public List&amp;lt;AcctCashDetail&amp;gt; getAcctCashDetailByCashId(Integer cashId)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="1786.25" width="213" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-32" target="bUvj8TGviZVEhVeKmZVO-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-32" value="// 保存顺序号：已校验过支付状态，可直接更新顺序号&lt;div&gt;acctTellDAO.saveAcctCashDetailBySession(detail);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="2220" width="301" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-33" target="bUvj8TGviZVEhVeKmZVO-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-33" value="发送单笔交易请求&lt;div&gt;BusinessSingleTranResultVo tranResult = ebankClientBo.doSingleTran(requestVo);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="721" y="2220" width="301" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-37" value="调用银医院直连系统&lt;br&gt;&lt;div&gt;jsonResult = doPost(this.url + &quot;/eBank/doSingleTransaction&quot;, headMap, params);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="289.5" y="2220" width="301" height="87.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
