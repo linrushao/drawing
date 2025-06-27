@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.6">
   <diagram name="第 1 页" id="vPlIOLLUKM6bT6ggozFT">
-    <mxGraphModel dx="1804" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2631" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -130,158 +130,266 @@
         <mxCell id="W-skbeQEMJc8F4TyrRdm-46" value="调用OES上传接口上传到系统" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="1390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-1" value="付款结算单支付流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-1" value="付款结算单支付流程" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="1500" width="710" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-2" target="bUvj8TGviZVEhVeKmZVO-3">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="bUvj8TGviZVEhVeKmZVO-2" target="bUvj8TGviZVEhVeKmZVO-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-2" value="public String doEbankPayNew(String cashIds, int payType)&lt;div&gt;（BOImpl）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-2" value="public String doEbankPayNew(String cashIds, int payType)&lt;div&gt;（BOImpl）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="19" y="1790" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-3" target="bUvj8TGviZVEhVeKmZVO-4">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bUvj8TGviZVEhVeKmZVO-3" target="bUvj8TGviZVEhVeKmZVO-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-3" value="&lt;div&gt;单笔支付&lt;/div&gt;inst = paySingleNew(cashIds)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-3" value="&lt;div&gt;单笔支付&lt;/div&gt;inst = paySingleNew(cashIds)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="269" y="1792.5" width="160" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-4" target="bUvj8TGviZVEhVeKmZVO-11">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bUvj8TGviZVEhVeKmZVO-4" target="bUvj8TGviZVEhVeKmZVO-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-4" target="bUvj8TGviZVEhVeKmZVO-16">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bUvj8TGviZVEhVeKmZVO-4" target="bUvj8TGviZVEhVeKmZVO-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-4" target="bUvj8TGviZVEhVeKmZVO-25">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bUvj8TGviZVEhVeKmZVO-4" target="bUvj8TGviZVEhVeKmZVO-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-4" target="bUvj8TGviZVEhVeKmZVO-27">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="bUvj8TGviZVEhVeKmZVO-4" target="bUvj8TGviZVEhVeKmZVO-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-4" target="bUvj8TGviZVEhVeKmZVO-29">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="bUvj8TGviZVEhVeKmZVO-4" target="bUvj8TGviZVEhVeKmZVO-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-4" value="&lt;div&gt;校验单据&lt;/div&gt;List&amp;lt;AcctCashDetail&amp;gt; payableDetailList = validateCashPayable(cashId);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-4" value="&lt;div&gt;校验单据&lt;/div&gt;List&amp;lt;AcctCashDetail&amp;gt; payableDetailList = validateCashPayable(cashId);" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="459" y="1792.5" width="150" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-5" target="bUvj8TGviZVEhVeKmZVO-22">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bUvj8TGviZVEhVeKmZVO-5" target="bUvj8TGviZVEhVeKmZVO-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-5" value="单笔支付&lt;div&gt;private String paySingleWithDetail(String cashId, List&amp;lt;AcctCashDetail&amp;gt; payableDetailList, Set&amp;lt;Integer&amp;gt; payableStatusSet)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-5" value="单笔支付&lt;div&gt;private String paySingleWithDetail(String cashId, List&amp;lt;AcctCashDetail&amp;gt; payableDetailList, Set&amp;lt;Integer&amp;gt; payableStatusSet)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1130" y="1791.25" width="301" height="87.5" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-11" value="查询得到AcctCash" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-11" value="查询得到AcctCash" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="1937.5" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-13" target="bUvj8TGviZVEhVeKmZVO-14">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bUvj8TGviZVEhVeKmZVO-13" target="bUvj8TGviZVEhVeKmZVO-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-13" value="表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-13" value="表" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="79" y="1610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-14" value="acct_cash" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-14" value="acct_cash" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="1610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-16" value="String payName = entity.getReceAcctId() == null ? &quot;付款账户&quot; : &quot;收款账户&quot;;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-16" value="String payName = entity.getReceAcctId() == null ? &quot;付款账户&quot; : &quot;收款账户&quot;;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="1937.5" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-18" value="sys_account_info" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-18" value="sys_account_info" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="1610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-19" value="sys_bank" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-19" value="sys_bank" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="1610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-20" value="sys_bank_type" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-20" value="sys_bank_type" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="689" y="1610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-21" value="cash" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-21" value="cash" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="1690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-22" target="bUvj8TGviZVEhVeKmZVO-32">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bUvj8TGviZVEhVeKmZVO-22" target="bUvj8TGviZVEhVeKmZVO-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-22" value="校验付款结算单明细信息&lt;div&gt;List&amp;lt;AcctCashDetail&amp;gt; cashDetailList = this.acctTellDAO.getAcctCashDetailByCashId(Integer.parseInt(cashId));&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-22" value="校验付款结算单明细信息&lt;div&gt;List&amp;lt;AcctCashDetail&amp;gt; cashDetailList = this.acctTellDAO.getAcctCashDetailByCashId(Integer.parseInt(cashId));&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1130" y="2050" width="301" height="87.5" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-25" value="&lt;div&gt;获取账户信息&lt;/div&gt;Map acctInfo = acctTellDAO.getAcctInfoByAcctId(acctId.toString());" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-25" value="&lt;div&gt;获取账户信息&lt;/div&gt;Map acctInfo = acctTellDAO.getAcctInfoByAcctId(acctId.toString());" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="1937.5" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-27" value="校验付款结算单明细信息&lt;div&gt;List&amp;lt;AcctCashDetail&amp;gt; cashDetailList = this.acctTellDAO.getAcctCashDetailByCashId(Integer.parseInt(cashId));&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-27" value="校验付款结算单明细信息&lt;div&gt;List&amp;lt;AcctCashDetail&amp;gt; cashDetailList = this.acctTellDAO.getAcctCashDetailByCashId(Integer.parseInt(cashId));&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="660" y="1937.5" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-29" target="bUvj8TGviZVEhVeKmZVO-5">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bUvj8TGviZVEhVeKmZVO-29" target="bUvj8TGviZVEhVeKmZVO-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-29" value="获取结算单明细&lt;div&gt;public List&amp;lt;AcctCashDetail&amp;gt; getAcctCashDetailByCashId(Integer cashId)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-29" value="获取结算单明细&lt;div&gt;public List&amp;lt;AcctCashDetail&amp;gt; getAcctCashDetailByCashId(Integer cashId)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="770" y="1786.25" width="213" height="97.5" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-32" target="bUvj8TGviZVEhVeKmZVO-33">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bUvj8TGviZVEhVeKmZVO-32" target="bUvj8TGviZVEhVeKmZVO-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-32" target="bUvj8TGviZVEhVeKmZVO-60">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="bUvj8TGviZVEhVeKmZVO-32" target="bUvj8TGviZVEhVeKmZVO-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-32" value="// 保存顺序号：已校验过支付状态，可直接更新顺序号&lt;div&gt;acctTellDAO.saveAcctCashDetailBySession(detail);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-32" value="// 保存顺序号：已校验过支付状态，可直接更新顺序号&lt;div&gt;acctTellDAO.saveAcctCashDetailBySession(detail);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="770.5" y="2050" width="301" height="87.5" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-33" target="bUvj8TGviZVEhVeKmZVO-37">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="bUvj8TGviZVEhVeKmZVO-33" target="bUvj8TGviZVEhVeKmZVO-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-33" value="发送单笔交易请求&lt;div&gt;BusinessSingleTranResultVo tranResult = ebankClientBo.doSingleTran(requestVo);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-33" value="发送单笔交易请求&lt;div&gt;BusinessSingleTranResultVo tranResult = ebankClientBo.doSingleTran(requestVo);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="319" y="2050.25" width="301" height="87.5" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-37" target="bUvj8TGviZVEhVeKmZVO-39">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bUvj8TGviZVEhVeKmZVO-37" target="bUvj8TGviZVEhVeKmZVO-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-37" value="调用银医院直连系统&lt;br&gt;&lt;div&gt;jsonResult = doPost(this.url + &quot;/eBank/doSingleTransaction&quot;, headMap, params);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-37" value="调用银医院直连系统&lt;br&gt;&lt;div&gt;jsonResult = doPost(this.url + &quot;/eBank/doSingleTransaction&quot;, headMap, params);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-70" y="2050" width="301" height="87.5" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-39" target="bUvj8TGviZVEhVeKmZVO-41">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="bUvj8TGviZVEhVeKmZVO-39" target="bUvj8TGviZVEhVeKmZVO-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-39" value="更新付款结算单明细信息状态&lt;div&gt;acctEbankCommonDAO.updateAcctCashDetailPayState(detailId, &quot;6&quot;, bankTransCode, failReason);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-39" value="更新付款结算单明细信息状态&lt;div&gt;acctEbankCommonDAO.updateAcctCashDetailPayState(detailId, &quot;6&quot;, bankTransCode, failReason);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-70" y="2240" width="301" height="87.5" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-41" target="bUvj8TGviZVEhVeKmZVO-42">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bUvj8TGviZVEhVeKmZVO-41" target="bUvj8TGviZVEhVeKmZVO-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-41" value="查询单笔交易请求&lt;div&gt;BusinessSingleTranQueryResultVo queryResult = ebankClientBo.doSingleTranQuery(singleTranQueryVo);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-41" value="查询单笔交易请求&lt;div&gt;BusinessSingleTranQueryResultVo queryResult = ebankClientBo.doSingleTranQuery(singleTranQueryVo);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="366.5" y="2240" width="301" height="87.5" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-42" target="bUvj8TGviZVEhVeKmZVO-45">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="bUvj8TGviZVEhVeKmZVO-42" target="bUvj8TGviZVEhVeKmZVO-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-42" value="调用银医直连系统（单笔交易结果查询）&lt;div&gt;jsonResult = doPost(this.url + &quot;/eBank/doSingleTranQuery&quot;, headMap, params);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-42" value="调用银医直连系统（单笔交易结果查询）&lt;div&gt;jsonResult = doPost(this.url + &quot;/eBank/doSingleTranQuery&quot;, headMap, params);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="770.5" y="2240" width="301" height="87.5" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bUvj8TGviZVEhVeKmZVO-45" target="bUvj8TGviZVEhVeKmZVO-46">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bUvj8TGviZVEhVeKmZVO-45" target="bUvj8TGviZVEhVeKmZVO-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-45" value="更新付款结算单实付，状态等信息&lt;div&gt;acctEbankCommonDAO.updateAcctCashInfoById(cashId);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-45" value="更新付款结算单实付，状态等信息&lt;div&gt;acctEbankCommonDAO.updateAcctCashInfoById(cashId);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="770.5" y="2430" width="301" height="87.5" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-46" value="&lt;div&gt;反写结算状态&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;this.acctTellDAO.doReturnBusiState(entity.getCashId(),false);&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-46" value="&lt;div&gt;反写结算状态&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;this.acctTellDAO.doReturnBusiState(entity.getCashId(),false);&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360.5" y="2430" width="301" height="87.5" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-50" value="acct_cash_busi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-50" value="acct_cash_busi" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="1690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-51" value="ctrl_return_detail" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-51" value="ctrl_return_detail" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="1690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-52" value="sys_bank" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-52" value="sys_bank" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="1690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-53" value="sys_bank_type" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-53" value="sys_bank_type" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="829" y="1690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-57" value="单笔交易的核心逻辑&lt;div&gt;&lt;div style=&quot;background-color: rgb(30, 31, 34); color: rgb(188, 190, 196);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(207, 142, 109);&quot;&gt;private &lt;/span&gt;ApiResult&amp;lt;BusinessSingleTranResultVo&amp;gt; &lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(86, 168, 245);&quot;&gt;doSingleTransactionCore&lt;/span&gt;(BusinessSingleTranRequestVo requestVo) &lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-57" value="单笔交易的核心逻辑&lt;div&gt;&lt;div style=&quot;background-color: rgb(30, 31, 34); color: rgb(188, 190, 196);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(207, 142, 109);&quot;&gt;private &lt;/span&gt;ApiResult&amp;lt;BusinessSingleTranResultVo&amp;gt; &lt;/pre&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(86, 168, 245);&quot;&gt;doSingleTransactionCore&lt;/span&gt;(BusinessSingleTranRequestVo requestVo) &lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-320" y="2064" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-59" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-59" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;" parent="1" vertex="1">
           <mxGeometry x="-190" y="2059" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="bUvj8TGviZVEhVeKmZVO-60" value="支付流水号&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String busiNo = entity.getCashCode() + &quot;d&quot; + detail.getOrderNo();&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bUvj8TGviZVEhVeKmZVO-60" value="支付流水号&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String busiNo = entity.getCashCode() + &quot;d&quot; + detail.getOrderNo();&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="980" y="1910" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;中国银行-联行号&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="60" width="650" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L-BnVZ4Kaj6DSZuBnDYQ-3" target="L-BnVZ4Kaj6DSZuBnDYQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-3" value="acctTellPayInput.view" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-6" value="cnaps&lt;div&gt;(联行号)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="260" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.433;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L-BnVZ4Kaj6DSZuBnDYQ-3" target="L-BnVZ4Kaj6DSZuBnDYQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="L-BnVZ4Kaj6DSZuBnDYQ-8" target="L-BnVZ4Kaj6DSZuBnDYQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-8" value="支付接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L-BnVZ4Kaj6DSZuBnDYQ-10" target="L-BnVZ4Kaj6DSZuBnDYQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-10" value="view.processor.doEbankPayNewProcess(cashIds, 1);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="160" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L-BnVZ4Kaj6DSZuBnDYQ-12" target="L-BnVZ4Kaj6DSZuBnDYQ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-12" value="调用接口&lt;br&gt;AcctTellCustomBOImpl.doEbankPayNew(String,int) - acctCustom" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-435" y="310" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L-BnVZ4Kaj6DSZuBnDYQ-15" target="L-BnVZ4Kaj6DSZuBnDYQ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-15" value="支付接口&lt;br&gt;inst = paySingleNew(cashIds);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-395" y="420" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L-BnVZ4Kaj6DSZuBnDYQ-17" target="L-BnVZ4Kaj6DSZuBnDYQ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-17" value="查询支付详情单&lt;br&gt;return this.queryObjects(&quot;FROM AcctCashDetail WHERE cashId=&quot; + cashId + &quot; order by payState desc&quot;);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="525" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-20" value="设置收款账号名称（开户行）&lt;br&gt;requestVo.setReceiveAccountDept(detail.getBankName());" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-445" y="640" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L-BnVZ4Kaj6DSZuBnDYQ-23" target="L-BnVZ4Kaj6DSZuBnDYQ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-23" value="设置联行号&lt;div&gt;requestVo.setReceivePartCnaps(StringUtils.isBlank(detail.getCnaps()) ? &quot;&quot; : detail.getCnaps());&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="760" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.486;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L-BnVZ4Kaj6DSZuBnDYQ-20" target="L-BnVZ4Kaj6DSZuBnDYQ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="L-BnVZ4Kaj6DSZuBnDYQ-25" target="L-BnVZ4Kaj6DSZuBnDYQ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-25" value="单笔交易请求（调用银医直连系统）&lt;div&gt;BusinessSingleTranResultVo tranResult = ebankClientBo.doSingleTran(requestVo);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="760" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="L-BnVZ4Kaj6DSZuBnDYQ-28" target="L-BnVZ4Kaj6DSZuBnDYQ-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-28" value="调用银医直连系统的接口&lt;div&gt;jsonResult = doPost(this.url + &quot;/eBank/doSingleTransaction&quot;, headMap, params);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="640" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="L-BnVZ4Kaj6DSZuBnDYQ-30" target="L-BnVZ4Kaj6DSZuBnDYQ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-30" value="EBankController&lt;br&gt;/doSingleTransaction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="540" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L-BnVZ4Kaj6DSZuBnDYQ-32" target="L-BnVZ4Kaj6DSZuBnDYQ-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-32" value="核心交易&lt;div&gt;（return doSingleTransactionCore(requestVo);）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-815" y="410" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L-BnVZ4Kaj6DSZuBnDYQ-34" target="L-BnVZ4Kaj6DSZuBnDYQ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-34" value="&lt;span style=&quot;background-color: transparent;&quot;&gt;联行号是否为空&amp;nbsp;&amp;nbsp;&lt;br&gt;String bankName = requestVo.getReceiveAccountDept();&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (StringUtils.isNotEmpty(bankName) &amp;amp;&amp;amp; StringUtils.isEmpty(requestVo.getReceivePartCnaps())) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; BankCnapsConfig bankCnaps = bankCnapsConfigMapper.queryBankCnapsConfigByName(bankName);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (bankCnaps != null) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; requestVo.setReceivePartCnaps(bankCnaps.getCnapsNum());&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1380" y="350" width="470" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L-BnVZ4Kaj6DSZuBnDYQ-36" target="L-BnVZ4Kaj6DSZuBnDYQ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-36" value="BankCnapsConfig bankCnaps = bankCnapsConfigMapper.queryBankCnapsConfigByName(bankName);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1370" y="620" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L-BnVZ4Kaj6DSZuBnDYQ-38" target="L-BnVZ4Kaj6DSZuBnDYQ-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-38" value="&lt;div&gt;查询联行号的SQL&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;lt;select id=&quot;queryBankCnapsConfigByName&quot; parameterType=&quot;java.lang.String&quot; resultMap=&quot;BaseResultMap&quot;&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; select&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;include refid=&quot;com.viewhigh.ebank.api.mapper.BankCnapsConfigMapper.Base_Column_List&quot;&amp;gt;&amp;lt;/include&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; from bank_cnaps_config&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; where bank_name=#{bankName}&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;lt;/select&amp;gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1440" y="730" width="560" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-40" value="中国银行的实现类&lt;div&gt;&amp;nbsp;result = bankService.doSingleTransaction(requestVo);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1315" y="990" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-42" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; String toibkn = requestVo.getReceivePartCnaps();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1360" y="1169" width="220" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-44" value="BOCPB2PRSingleTranRequestVo.Toactn toactn = new BOCPB2PRSingleTranRequestVo.Toactn();&amp;nbsp; toactn.setToibkn(toibkn);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1370" y="1350" width="300" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
