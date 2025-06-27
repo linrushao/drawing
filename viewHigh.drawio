@@ -397,7 +397,7 @@
         <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L-BnVZ4Kaj6DSZuBnDYQ-44" target="L-BnVZ4Kaj6DSZuBnDYQ-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-44" value="BOCPB2PRSingleTranRequestVo.Toactn toactn = new BOCPB2PRSingleTranRequestVo.Toactn();&amp;nbsp; toactn.setToibkn(toibkn);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-44" value="BOCPB2PRSingleTranRequestVo.Toactn toactn = new BOCPB2PRSingleTranRequestVo.Toactn();&amp;nbsp; toactn.setToibkn(toibkn)&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;;&lt;/span&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp;bocBatchTranRequestVo.setToactn(toactn);&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-970" y="1164.5" width="310" height="100" as="geometry" />
         </mxCell>
         <mxCell id="L-BnVZ4Kaj6DSZuBnDYQ-45" value="中国银行批量交易&lt;div&gt;&lt;div&gt;BOCPB2PBBatchTranResultVo fakeBatchResult = (BOCPB2PBBatchTranResultVo) bocBank.doBatchTransaction(bocBatchTranRequestVo,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; requestVo.getBusiNo(), &quot;b2e0009&quot;);&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
