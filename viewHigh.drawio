@@ -667,7 +667,7 @@
         <mxCell id="yW8O6p3b0Max-1KrEDsE-95" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;组别&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1452.35" y="6050" width="236.5" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="yW8O6p3b0Max-1KrEDsE-96" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;督办频率&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yW8O6p3b0Max-1KrEDsE-96" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;督办频率【每周】&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1085.85" y="6090" width="380" height="90" as="geometry" />
         </mxCell>
         <mxCell id="yW8O6p3b0Max-1KrEDsE-97" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;完成情况&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
