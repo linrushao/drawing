@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.6">
   <diagram name="第 1 页" id="vPlIOLLUKM6bT6ggozFT">
-    <mxGraphModel dx="5024" dy="1355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5387" dy="1549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1268,6 +1268,12 @@
         </mxCell>
         <mxCell id="Cfg9v5SN_aox88eRvqsm-102" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;第一周&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="-1670" y="8714" as="geometry" />
+        </mxCell>
+        <mxCell id="Cfg9v5SN_aox88eRvqsm-103" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;填报预警：1.如果是每周的前三天需要弹窗提醒填报&lt;br&gt;2.如果是每月的或者没季度的前5天需要弹窗&lt;/font&gt;&lt;span style=&quot;font-size: 36px;&quot;&gt;提醒填报&lt;/span&gt;" vertex="1">
+          <mxGeometry height="381" width="480" x="-2420" y="7469" as="geometry" />
+        </mxCell>
+        <mxCell id="Cfg9v5SN_aox88eRvqsm-106" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;审批预警：1.如果是每周的前三天需要弹窗提醒填报&lt;br&gt;2.如果是每月的或者没季度的前5天需要弹窗&lt;/font&gt;&lt;span style=&quot;font-size: 36px;&quot;&gt;提醒填报&lt;/span&gt;" vertex="1">
+          <mxGeometry height="381" width="480" x="-2410" y="7934" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
